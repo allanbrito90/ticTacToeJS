@@ -1,9 +1,32 @@
 table{
     background-color: black;    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fundo_tabuleiro{
-    background-color: white;
     width: 100px;
     height: 100px;
+}
+
+.marcacao{
+    text-align: center;
+    font-size: 70px;
+}
+
+.corBlocoNormal{
+    background-color: white;
+}
+
+.corBlocoVitoria{
+    background-color: gray;
+}
+
+body{
+    display: block;
+    text-align: center;
+}
+
+#titulo{
+    font-family: 'Permanent Marker', cursive;
 }
